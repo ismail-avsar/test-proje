@@ -24,10 +24,11 @@ a:hover {
 
 body {
   margin: 0;
+  height: 100vh;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: center; /* YATAY ortalama */
+  align-items: center;     /* DİKEY ortalama */
+  background-color: #f8f9fa; /* açık gri arka plan */
 }
 
 h1 {
