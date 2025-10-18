@@ -6,10 +6,10 @@ import Success from './components/Success';
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route exact path="/" component={Login} />
-        <Route path="/success" component={Success} />
-      </Switch>
+      <Routes>
+        <Route exact path="/" element={Login} />
+        <Route path="/success" element={Success} />
+      </Routes>
     </Router>
   );
 }
