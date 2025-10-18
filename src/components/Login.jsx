@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Form, FormGroup, Label, Input, Button, FormFeedback, Card } from 'reactstrap';
 import { useHistory } from 'react-router-dom';
-import axios from 'axios';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const initialForm = {
   email: '',
